@@ -1,0 +1,32 @@
+[main]
+# general stuff like:
+# 1) the name of the station
+# 2) the type of data logger choices: CR10X or CR1000
+# 3) number of arrays on the line (so incomplete lines are ignored and so program changes, which might involve same array ID but different number of columns are ignored
+# 4) the array ID to look for in the input file
+station_name = Sample_Array_Logger
+logger_type = Array
+array_id = 18
+arrays = 9
+
+
+# input files
+# 1) the raw data
+# 2) another key file containng array based parameters
+input_data_file = file:///c:/data/DataPro_Sample_Files/sample_array.dat
+array_based_params_key_file = c:\data\DataPro_Sample_Files\sample_array_params_18-9.csv
+therm1 = null
+therm2 = null
+
+# Working Directories
+output_dir = c:\data\DataPro_Sample_Files\outputs\
+qc_log_dir = c:\data\DataPro_Sample_Files\qc\
+error_log_dir = c:\data\DataPro_Sample_Files\error\
+
+# Execution Interval in Minutes
+exec_interval = 30
+
+# First line of data after headers in raw data files and the bad data value
+first_data_line = 0
+bad_data_val = 6999
+

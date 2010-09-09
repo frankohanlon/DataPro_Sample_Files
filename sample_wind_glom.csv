@@ -1,0 +1,4 @@
+d_element,Output_Array_Pos,Output_Header_Line_2,Output_Header_Line_3,Output_Header_Line_4,File_Loc
+Wind_Speed,1,Wind Speed,meters per second,Vector Average,/Users/bob/working_files/bin/py_datapro/DataPro_Sample_Files/outputs/array_WindSpeed.csv
+Wind_Direction,2,Wind Direction,degrees,Vector Average,/Users/bob/working_files/bin/py_datapro/DataPro_Sample_Files/outputs/array_WindDirection.csv
+Wind_Dir_STD_DEV,3,Wind Direction Std. Dev.,degrees,null,/Users/bob/working_files/bin/py_datapro/DataPro_Sample_Files/outputs/array_WD_STD_DEV.csv

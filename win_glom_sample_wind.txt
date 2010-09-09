@@ -1,0 +1,17 @@
+[main]
+# general stuff like:
+# 1) the name of the station
+# 2) the type of data logger choices: CR10X or CR1000
+# 3) number of arrays on the line (so incomplete lines are ignored and so program changes, which might involve same array ID but different number of columns are ignored
+# 4) the array ID to look for in the input file
+
+# input files
+# 1) the raw data
+# 2) another key file containng array based parameters
+glom_params_key_file = C:\data\DataPro_Sample_Files\win_sample_wind_glom.csv
+# Working Directories
+qc_log_dir = C:\data\DataPro_Sample_Files\qc\
+error_log_dir = C:\data\DataPro_Sample_Files\error\
+
+interval = all
+output_data_file = C:\data\DataPro_Sample_Files\outputs\sample_array_wind.csv

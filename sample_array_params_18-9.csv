@@ -1,0 +1,10 @@
+d_element,Data_Type,Input_Array_Pos,Coef_1,Coef_2,Coef_3,Coef_4,Coef_5,Coef_6,Coef_7,Qc_Param_High,Qc_Param_Low,QC_Param_Step,Output_Header_Name,Ouput_Header_Units,Output_Header_Measurement_Type
+array_id,ignore,0,0,0,0,0,0,0,0,0,0,0,ignore,ignore,ignore
+year,datey,1,0,0,0,0,0,0,0,0,0,0,ignore,ignore,ignore
+day,dated,2,0,0,0,0,0,0,0,0,0,0,ignore,ignore,ignore
+hourminute,dateh,3,0,0,0,0,0,0,0,0,0,0,ignore,ignore,ignore
+array_Battery,num,4,0,0,0,0,0,0,0,0,0,0,Battery_avg,Volts,average
+array_WindSpeed,num,5,0,0,0,0,0,0,0,0,0,0,WS3m,m/s,WVc
+array_WindDirection,num,6,0,0,0,0,0,0,0,0,0,0,WD3m,deg,WVc
+array_WD_STD_DEV,num,7,0,0,0,0,0,0,0,0,0,0,WDSTDDEV3m,deg,WVc
+array_Temperature,therm,8,0.001465769,0.000238619,0.0000001,0,0,0,0,0,0,0,Soil Temperature: 0cm bgs #1,Degrees Celsius,average
